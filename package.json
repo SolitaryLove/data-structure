@@ -1,0 +1,16 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup": "^2.79.0"
+  },
+  "scripts": {
+    "build": "rollup -cw"
+  }
+}
